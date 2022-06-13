@@ -3,5 +3,9 @@
 #onestep automated Install
 
 curl -sSL https://install.pi-hole.net | bash
+wait
 
 # add automated updates
+
+sudo pihole update
+
